@@ -6,10 +6,6 @@
 
 struct stat stat1, stat2;
 struct tm time1, *time2;
-char date1[10];
-char date2[10];
-char ctime1[10];
-char ctime2[10];
 
 void filestat1(void);
 void filestat2(void);
