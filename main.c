@@ -44,7 +44,6 @@ void filestat2(void)
 void filetime1(void)
 {
 	localtime_r(&stat1.st_mtime, &time1);
-	printf("time1 : %d : %d\n", time1.tm_hour, time1.tm_min);
 }
 
 //파일 2의 시간 정보를 가져오는 함수 작성
