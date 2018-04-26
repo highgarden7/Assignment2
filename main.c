@@ -51,6 +51,7 @@ void filetime1(void)
 void filetime2(void)
 {
 	time2 = localtime(&stat2.st_mtime);
+	printf("time2 : %d : %d\n", time2->tm_hour, time2->tm_min);
 }
 
 //두 개의 파일 크기를 비교하는 함수 작성
